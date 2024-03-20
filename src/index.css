@@ -1,0 +1,25 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contaiter {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  width: fit-content;
+  position: relative;
+}
+
+.ball-menu {
+  position: absolute;
+  padding: 5px 10px;
+
+  background-color: #839192;
+}
